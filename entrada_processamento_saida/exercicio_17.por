@@ -12,14 +12,19 @@ programa
 	funcao inicio()
 	{
 
-		inteiro varA, varB
+		inteiro varA, varB, varAux
 		
 		escreva("Digite um valor para A: ")
-		leia(varB)
+		leia(varA)
 		
 		escreva("Digite um valor para B: ")
-		leia(varA)
+		leia(varB)
 
+		varAux = varA
+		varA = varB
+		varB = varAux
+		
+		// teoria dos baldes
 		escreva("Agora A vale: " + varA + " e B vale " + varB)
 	}
 }
@@ -28,7 +33,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 455; 
+ * @POSICAO-CURSOR = 432; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

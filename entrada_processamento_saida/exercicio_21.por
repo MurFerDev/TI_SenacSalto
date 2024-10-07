@@ -12,7 +12,7 @@ programa
 	funcao inicio()
 	{
 
-		real precoUnit, quantidade, valorTotal, valorRecebido, troco
+		real precoUnit, quantidade, valorRecebido, troco /*valorTotal*/
 	
 		escreva("Preço do produto: R$ ")
 		leia(precoUnit)
@@ -20,14 +20,15 @@ programa
 		escreva("Quantidade: ")
 		leia(quantidade)
 
-		valorTotal = precoUnit * quantidade
-		
-		escreva("Total da compra: R$ " + valorTotal + "\n")
+		//valorTotal = precoUnit * quantidade
+	
+		//escreva("Total da compra: R$ " + valorTotal + "\n")
 		
 		escreva("Valor recebido do cliente: R$ ")
 		leia(valorRecebido)
 
-		troco = valorRecebido - valorTotal
+		// troco = valorRecebido - valorTotal
+		troco = valorRecebido - (precoUnit * quantidade)
 
 		escreva("O troco é de R$ " + troco)
 		
@@ -38,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 328; 
+ * @POSICAO-CURSOR = 399; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

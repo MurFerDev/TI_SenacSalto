@@ -11,8 +11,7 @@ programa
 	{
 
 		cadeia nomeP1, nomeP2
-		real idadeP1, idadeP2
-		real mediaIdades
+		real idadeP1, idadeP2, mediaIdades
 	
 		escreva("Digite o nome da primeira pessoa: ")
 		leia(nomeP1)
@@ -36,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 656; 
+ * @POSICAO-CURSOR = 240; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
