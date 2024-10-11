@@ -10,7 +10,7 @@ programa {
   funcao inicio() {
   
     real entrada1, entrada2
-    caracter operador
+    cadeia operador
 
     escreva("Digite um número qualquer: ")
     leia(entrada1)
@@ -21,15 +21,14 @@ programa {
    escreva("Agora escolha um dos operadores: \nsoma: + \nsubtração: - \nmultiplicação: * \nou divisão: / \nDigite apenas o símbolo: " )
    leia(operador)
 
-  limpa()
+  	limpa()
    escreva("Sua escolha foi: ", entrada1, " ", operador, " ", entrada2)
-
    se(operador == "+"){
       escreva("\nO resultado é: ", entrada1 + entrada2)
    }senao
-    se(operador == "-"){
+   	se(operador == "-"){
       escreva("\nO resultado é: ", entrada1 - entrada2)
-    }senao
+   	}senao
       se(operador == "*"){
       escreva("\nO resultado é: ", entrada1 * entrada2)
         }senao
@@ -37,8 +36,19 @@ programa {
         escreva("\nO número ", entrada1, " não pode ser dividido por 0!")
         }senao
           escreva("\nO resultado é: ", entrada1 / entrada2)
-    }
-  }
+	}
 }
 
 
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 346; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
