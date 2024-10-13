@@ -4,12 +4,12 @@ diferença entre o maior e o menor valor dentre
 quatro números reais fornecidos pelo usuário.
  */
  
-programa
-{
+programa{
+	
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		real num1, num2, num3, num4
 		real maior, menor, diferencaSub, diferencaMod
 
@@ -47,6 +47,7 @@ programa
 		escreva("A diferença (via Subtração) entre ", maior," e ", menor," é de ", diferencaSub,"\n\n")
 		escreva("A diferença (via Módulo) entre ", maior," e ", menor," é de ", diferencaMod,"\n")
 
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -54,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 430; 
+ * @POSICAO-CURSOR = 1324; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

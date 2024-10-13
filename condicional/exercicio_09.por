@@ -11,12 +11,11 @@ imc = peso / altura²
 
 */
 
-programa
-{
+programa{
+	
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio()
-	{
+	funcao inicio(){
 				
 		real peso, altura, imc
 
@@ -30,37 +29,32 @@ programa
 
 		altura = altura / 100
 		imc = mat.arredondar(peso/(altura*altura), 2)
+		
 		escreva("\n")
 		
-		se(imc <= 16.9)
-		{
+		se(imc <= 16.9){
 			escreva("Seu IMC é ", imc, ", está Muito abaixo do peso.")	
 		}
-		se((imc >= 17) e (imc <= 18.4))
-		{
+		se((imc >= 17) e (imc <= 18.4)){
 			escreva("Seu IMC é ", imc, ", está Abaixo do peso.")	
 		}
-		se((imc >= 18.5) e (imc <= 24.9))
-		{
+		se((imc >= 18.5) e (imc <= 24.9)){
 			escreva("Seu IMC é ", imc, ", está Normal.")
 		}
-		se((imc >= 25) e (imc <= 29.9))
-		{
+		se((imc >= 25) e (imc <= 29.9)){
 			escreva("Seu IMC é ", imc, ", está Acima do peso.")	
 		}
-		se((imc >= 30) e (imc <= 34.9))
-		{
+		se((imc >= 30) e (imc <= 34.9)){
 			escreva("Seu IMC é ", imc, " e é considerado Obsesidade grau I.")	
 		}
-		se((imc >= 35) e (imc <= 40))
-		{
+		se((imc >= 35) e (imc <= 40)){
 			escreva("Seu IMC é ", imc, " e é considerado Obsesidade grau II.")	
 		}
-		se(imc > 40)
-		{
+		se(imc > 40){
 			escreva("Seu IMC é ", imc, " e é considerado Obsesidade grau III.")	
 		}
-		
+
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -68,7 +62,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 713; 
+ * @POSICAO-CURSOR = 504; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

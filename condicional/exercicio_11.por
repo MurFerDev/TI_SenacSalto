@@ -6,11 +6,10 @@ um quadrado. Lembrando que a área é obtida pela
 multiplicação da base (L) pela altura (A).
  */
  
- programa
-{
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		real largura, altura, area
 		
 		escreva("Condicionais - Exercício 11\n\n")
@@ -23,8 +22,8 @@ multiplicação da base (L) pela altura (A).
 
 		area = largura * altura
 
-		se(largura == altura)
-		{
+		escreva("\n")
+		se(largura == altura){
 			escreva("\nA área do QUADRADO é: ", area, "m²")
 		} senao
 			escreva("\nA área do RETÂNGULO é: ", area, "m²")
@@ -37,7 +36,7 @@ multiplicação da base (L) pela altura (A).
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 719; 
+ * @POSICAO-CURSOR = 560; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

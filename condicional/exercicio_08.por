@@ -6,30 +6,32 @@ Elaborar uma rotina que realize essa conversão a partir
 de uma temperatura digitada pelo usuário e a escala que ele quer.
 */
 
-programa
-{
-	inclua biblioteca Matematica
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		real grausC, grausF, grausK
 		caracter tipoEscolhido
 
+		escreva("Condicionais - Exercício 08\n\n")
+		escreva("*** CONVERSÃO DE TEMPERATURA *** \n\n")
+	
 		escreva("Temperatura atual (em ºC): ")
 		leia(grausC)
 
 		escreva("Escolha entre F e K: ")
 		leia(tipoEscolhido)
 
-		se(tipoEscolhido == 'f')
-		{
-			escreva((grausC*1.8)+32)
+		escreva("\n")
+		se(tipoEscolhido == 'f' ou tipoEscolhido == 'F'){
+			escreva((grausC*1.8)+32,"ºF")
 		}senao
-			se(tipoEscolhido == 'k')
-			{
-				escreva(grausC + 273)
+			se(tipoEscolhido == 'k' ou tipoEscolhido == 'K'){
+				escreva(grausC + 273,"ºK")
 			}senao
 			escreva("Escolha inválida, tente novamente!")
+
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -37,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 15; 
+ * @POSICAO-CURSOR = 848; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

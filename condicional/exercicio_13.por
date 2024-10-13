@@ -4,11 +4,9 @@ digitados pelo usuário, determinar e exibir
 a quantidade de números que são pares.
  */
  
-programa
-{
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
 
 		inteiro num1, num2, num3, num4, num5, contadorPar=0
 
@@ -52,8 +50,8 @@ programa
 		se(contadorPar > 0){
 			escreva("\nTotal de números pares: ",contadorPar)	
 		}
+		
 		escreva("\n")
-
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -61,7 +59,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 216; 
+ * @POSICAO-CURSOR = 1236; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -28,56 +28,44 @@ programa
 		leia(num4)
 
 		// Verificação se o número é multiplo de 5
-		se(num1 % 5 == 0)
-		{
+		se(num1 % 5 == 0){
 			num1Result = verdadeiro
 		}
-		se(num2 % 5 == 0)
-		{
+		se(num2 % 5 == 0){
 			num2Result = verdadeiro
 		} 	
-		se(num3 % 5 == 0)
-		{
+		se(num3 % 5 == 0){
 			num3Result = verdadeiro
 		} 	
-		se(num4 % 5 == 0)
-		{
+		se(num4 % 5 == 0){
 			num4Result = verdadeiro
 		}
 
 		// Análise dos requisitos do enunciado
-		se(num1 >=100 e num1 < 200)
-		{
+		se(num1 >=100 e num1 < 200){
 			reqNum1 = verdadeiro
 		}
-		se(num2 >=100 e num2 < 200)
-		{
+		se(num2 >=100 e num2 < 200){
 			reqNum2 = verdadeiro
 		}
-		se(num3 >=100 e num3 < 200)
-		{
+		se(num3 >=100 e num3 < 200){
 			reqNum3 = verdadeiro
 		}
-		se(num4 >=100 e num4 < 200)
-		{
+		se(num4 >=100 e num4 < 200){
 			reqNum4 = verdadeiro
 		}
 
 		// Validação dos resultados para acrescer o contador
-		se(num1Result == verdadeiro e reqNum1 == verdadeiro)
-		{
-			contador++
-    }
-		se(num2Result == verdadeiro e reqNum2 == verdadeiro)
-		{
+		se(num1Result == verdadeiro e reqNum1 == verdadeiro){
 			contador++
 		}
-		se(num3Result == verdadeiro e reqNum3 == verdadeiro)
-		{
+		se(num2Result == verdadeiro e reqNum2 == verdadeiro){
 			contador++
 		}
-		se(num4Result == verdadeiro e reqNum4 == verdadeiro)
-		{
+		se(num3Result == verdadeiro e reqNum3 == verdadeiro){
+			contador++
+		}
+		se(num4Result == verdadeiro e reqNum4 == verdadeiro){
 			contador++
 		}
 
@@ -91,7 +79,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1725; 
+ * @POSICAO-CURSOR = 803; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

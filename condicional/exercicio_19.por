@@ -4,11 +4,10 @@ digitadas pelo usuário, determine e mostre a
 quantidade de vogais.
  */
 
-programa
-{
+programa{
 
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		caracter resposta1, resposta2, resposta3, resposta4, resposta5
 		inteiro eVogal=0, naoVogal=0
 
@@ -27,7 +26,8 @@ programa
 		leia(resposta5)
 
 		limpa()
-		escreva("A letras digitadas foram: ", resposta1,", ", resposta2,", ", resposta3,", ", resposta4," e ", resposta5, "\n\n") 
+		escreva("A letras digitadas foram: ", resposta1,", ", resposta2,", ", resposta3,", ", resposta4," e ", resposta5, "\n\n")
+		
 		se(resposta1 == 'a' ou resposta1 == 'A' ou resposta1 == 'e' ou resposta1 == 'E' ou resposta1 == 'i' ou resposta1 == 'I' ou resposta1 == 'o' ou resposta1 == 'O' ou resposta1 == 'u' ou resposta1 == 'U')
 		{
 			escreva("A letra ", resposta1, " é uma vogal.\n")
@@ -79,37 +79,29 @@ programa
 			}
 
 		escreva("\n")
-		se(eVogal == 5)
-		{
+		se(eVogal == 5){
 			escreva("Todas as ", eVogal, " letras digitadas são vogais.\n")
 		}senao
-			se(eVogal > 1 e eVogal < 5)
-			{
+			se(eVogal > 1 e eVogal < 5){
 				escreva("Foram digitadas ", eVogal, " vogais.\n")
 			}senao
-				se(eVogal == 1)
-				{
+				se(eVogal == 1){
 					escreva("Apenas ", eVogal, " vogal foi digitada.\n")
 				}senao
-					se(eVogal == 0)
-					{
+					se(eVogal == 0){
 						escreva("Não foi digitada nenhuma vogal.\n")
 					}
 
-		se(naoVogal == 5)
-		{
+		se(naoVogal == 5){
 			escreva("Todas teclas digitadas são não vogais.\n")
 		}senao
-			se(naoVogal > 1 e naoVogal < 5)
-			{
+			se(naoVogal > 1 e naoVogal < 5){
 				escreva("Foram digitadas ", naoVogal, " não vogais.\n")
 			}senao
-				se(naoVogal == 1)
-				{
+				se(naoVogal == 1){
 					escreva("Apenas ", naoVogal, " não vogal foi digitada.\n")
 				}senao
-					se(naoVogal == 0)
-					{
+					se(naoVogal == 0){
 						escreva("Não foi digitada nenhuma não vogal.\n")
 					}
 			
@@ -122,7 +114,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 138; 
+ * @POSICAO-CURSOR = 856; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

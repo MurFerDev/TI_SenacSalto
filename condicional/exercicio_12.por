@@ -5,12 +5,12 @@ referência, que 1 polegada = 25.4mm, 1 pé = 30.48cm
 e 1 milha = 1609.344mt.
  */
  
-programa
-{
-	inclua biblioteca Matematica --> mat
+programa{
+
+	inclua biblioteca Matematica --> mat
 	
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		real metros, polegadas, pes, milhas
 		inteiro opcao
 		
@@ -28,13 +28,12 @@ programa
 		leia(opcao)
 
 		polegadas = mat.arredondar(metros * 39.37007874015748031, 2) // arredonda as casas decimais após aconversão
-		pes  = mat.arredondar(metros * 3.280839895013123359, 2) // arredonda as casas decimais após aconversão
+		pes  = mat.arredondar(metros * 3.280839895013123359, 2) // arredonda as casas decimais após aconversão
 		milhas = mat.arredondar(metros * 0.000621371192237333,4) // arredonda as casas decimais após aconversão
 
 		limpa()
 
-		escolha (opcao)	
-		{
+		escolha (opcao){
 			caso 1: 
 		 		escreva (metros, "m equivale a ", polegadas, " polegadas")
 		 		pare   // Impede que as instruções do caso 2 sejam executadas
@@ -47,8 +46,8 @@ programa
 		 	caso contrario: // Será executado para qualquer opção diferente de 1, 2 ou 3
 		 		escreva ("Opção inválida, tente novamente!")
 		}
+		
 		escreva("\n")
-
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -56,7 +55,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1305; 
+ * @POSICAO-CURSOR = 270; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

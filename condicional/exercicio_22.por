@@ -5,15 +5,15 @@ usuário e que deverá ser um número real positivo. O
 comprimento é obtido pela fórmula: 2xPIxR.
  */
  
-programa
-{
+programa{
+	
 	inclua biblioteca Matematica --> mat
 	
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		real circunferencia, raio
 
-		escreva("Condicionais - Exercício 21\n\n")
+		escreva("Condicionais - Exercício 22\n\n")
 		escreva("*** CÁLCULO DE COMPRIMENTO DE UM CIRCULO *** \n\n")
 		
 		escreva("Digite o raio da circunferência (em cm): ")
@@ -29,6 +29,8 @@ programa
 		limpa()
 		
 		escreva("O comprimento da circunferência é: ", circunferencia, "cm\n")
+
+		escreva("\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 469; 
+ * @POSICAO-CURSOR = 377; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

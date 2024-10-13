@@ -10,12 +10,10 @@ CATEGORIA  A,C  B,D,E  F,L  G,H  I,J
 
  */
  
-programa
-{
-	inclua biblioteca Texto --> tex
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
+		
 		real salario, reajuste=0.0
 		inteiro categoria
 		
@@ -24,7 +22,6 @@ programa
 
 		escreva("Digite seu salário (em R$): ")
 		leia(salario)
-
 		
 		escreva("1) Categoria A ou C \n")
 		escreva("2) Categoria B, D ou E \n")
@@ -42,11 +39,11 @@ programa
 			caso 1: 
 				reajuste = salario * 0.1
 		 		escreva ("Categoria A ou C \n")
-		 		pare   // Impede que as instruções do caso 2 sejam executadas
+		 		pare
 		 	caso 2: 
 				reajuste = salario * 0.15
 		 		escreva ("Categoria B, D ou E \n")
-		 		pare   // Impede que as instruções do caso 2 sejam executadas
+		 		pare
 		 	caso 3:
 				reajuste = salario * 0.25
 		 		escreva ("Categoria F ou L \n")
@@ -54,12 +51,12 @@ programa
 			caso 4: 
 				reajuste = salario * 0.35
 		 		escreva ("Categoria G ou H \n")
-		 		pare   // Impede que as instruções do caso 2 sejam executadas
+		 		pare  
 		 	caso 5:
 				reajuste = salario * 0.5
 		 		escreva ("Categoria I ou J \n")
-		 		pare   // Impede que as instruções do caso 2 sejam executadas
-		 	caso contrario: // Será executado para qualquer opção diferente de 1, 2 ou 3
+		 		pare
+		 	caso contrario:
 		 		escreva ("Opção Inválida !")
 		}
 
@@ -75,7 +72,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 953; 
+ * @POSICAO-CURSOR = 389; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

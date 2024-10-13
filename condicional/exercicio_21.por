@@ -12,11 +12,9 @@ Elaborar uma rotina que, a partir destas informações,
 calcule o mostre o valor do IPVA.
  */
 
-programa
-{
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
 		
 		real valorVeiculo, ipva=0.0, aliquotaCombustivel=0.0
 		inteiro tipoEscolhido
@@ -39,8 +37,7 @@ programa
 
 		limpa()
 
-		escolha (tipoEscolhido)	
-		{
+		escolha (tipoEscolhido){
 			caso 1:
 		 		aliquotaCombustivel = 0.04
 				escreva("Carro > Gasolina ou Flex \n\n")
@@ -86,7 +83,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 617; 
+ * @POSICAO-CURSOR = 1411; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

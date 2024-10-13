@@ -9,11 +9,9 @@ cálculo e exiba o valor da área.
 		Fórmula: A = b*h / 2
  */
 
-programa
-{
+programa{
 	
-	funcao inicio()
-	{
+	funcao inicio(){
 		
 		real altura, base, area
 
@@ -29,18 +27,15 @@ programa
 		area = base * altura / 2
 		
 		limpa()
-		escreva("\n")
-		
-		se(base > 0 e altura > 0)
-		{
+
+		se(base > 0 e altura > 0){
 			escreva("Base (b):\t", base,"\n",
 			"Altura (h):\t", altura,"\n",
 			"Área (A):\t", area, "cm²")
 		}senao
 			escreva("O valor da base(b) e da altura(h) devem ser maior que 0. \nTente novamente!")
 		
-		escreva("\n")
-				
+		escreva("\n")	
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -48,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 326; 
+ * @POSICAO-CURSOR = 905; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
