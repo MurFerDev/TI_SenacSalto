@@ -9,7 +9,7 @@ programa{
 	funcao inicio(){
   	
 		inteiro num1, num2, num3
-		logico menorA, menorB, menorC, menorD
+		logico menorA, menorB, menorC
 			
 		escreva("Condicionais - Exercício 01\n\n")
 		escreva("*** EXIBIR O MENOR NÚMERO INTEIRO *** \n\n")
@@ -45,7 +45,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 565; 
+ * @POSICAO-CURSOR = 174; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

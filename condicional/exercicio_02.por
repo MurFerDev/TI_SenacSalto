@@ -22,8 +22,9 @@ programa{
 		leia(nascimento)
 
 		idade = 2024-nascimento
-
-		escreva("\nNome: ", nome, "\nIdade: ", idade, " anos\n")
+		limpa()
+		
+		escreva("\nNome:\t", nome, "\nIdade:\t", idade, " anos\n\n")
 
 		se(idade >= 18){
 			escreva(nome, " é maior de idade!")
@@ -38,7 +39,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 217; 
+ * @POSICAO-CURSOR = 604; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

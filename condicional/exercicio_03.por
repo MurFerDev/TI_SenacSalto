@@ -13,7 +13,7 @@ programa {
 		escreva("Condicionais - Exercício 03\n\n")
 		escreva("*** DETERMINAR SE UM NÚMERO É PAR OU ÍMPAR *** \n\n")
 	
-		escreva("Digite qualquer número entre 1 e 10: ")
+		escreva("Digite um número inteiro qualquer: ")
 		leia(numDigitado)
 	
 		escreva("\n")
@@ -31,7 +31,7 @@ programa {
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 163; 
+ * @POSICAO-CURSOR = 343; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
