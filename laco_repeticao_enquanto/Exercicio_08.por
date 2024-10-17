@@ -1,34 +1,35 @@
+/* Exercício 08
+Escreva um programa que solicite ao usuário
+seu nome e sua idade e repita a solicitação até
+que sua idade seja entre 18 e 60 anos.
+*/
+
 programa
 {
 	
 	funcao inicio()
 	{
-		inteiro num, fatorial=0
+		cadeia nome
+		inteiro idade=0
 		
-		escreva("Digite um numero: ")
-		leia(num)
-		
-		enquanto (fatorial <= 1)
+		escreva("Digite seu nome: ")
+		leia(nome)
+
+		enquanto(idade <=18 e idade >=60)
 		{
-			fatorial = num * num-1
-			escreva("Fatorial: ", fatorial,"\n")
+			escreva("Digite sua idade: ")
+			leia(idade)
 		}
+		escreva("Nome: ",nome, "\nIdade: ", idade)
 		
-		escreva("O fatorial de ", num," é ", fatorial,"\n")
 	}
 }
-
-/* Exercício 05
- * Crie um //programa que solicite um número inteiro
- * positivo e calcule o seu fatorial.
- * n! = n · (n-1) · (n-2)
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 56; 
+ * @POSICAO-CURSOR = 215; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

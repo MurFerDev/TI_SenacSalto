@@ -3,32 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro num, fatorial=0
-		
-		escreva("Digite um numero: ")
-		leia(num)
-		
-		enquanto (fatorial <= 1)
-		{
-			fatorial = num * num-1
-			escreva("Fatorial: ", fatorial,"\n")
+		inteiro num, soma
+		soma = 0
+		para(inteiro i=0;i<5;i++){
+			escreva("Digite um número: ")
+			leia(num)
+			soma += num
 		}
-		
-		escreva("O fatorial de ", num," é ", fatorial,"\n")
+		escreva("A soma dos números é: ", soma)
 	}
 }
-
-/* Exercício 05
- * Crie um //programa que solicite um número inteiro
- * positivo e calcule o seu fatorial.
- * n! = n · (n-1) · (n-2)
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 56; 
+ * @POSICAO-CURSOR = 199; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
