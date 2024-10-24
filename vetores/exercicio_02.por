@@ -12,12 +12,12 @@ programa
 	{
 		inteiro cartelas[10], i=0
 
-		para(i=0;i<=10;i++)
+		para(i=0;i<10;i++)
 		{
-			escreva("Valor do pagamento: ")
+			escreva("Cartela ",i,". Valor : R$")
 			leia(cartelas[i])
 
-			se(cartelas[9] != 0)
+			se(cartelas[9] > 0)
 			{
 				escreva("Hoje o seu almoço é uma cortesia da casa, Parabéns!")
 			}
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 434; 
+ * @POSICAO-CURSOR = 417; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
